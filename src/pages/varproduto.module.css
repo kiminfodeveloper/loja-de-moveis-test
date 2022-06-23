@@ -1,0 +1,22 @@
+.img {
+    width: 650px;
+    height: 400px;
+}
+
+.container {
+    padding: 2em;
+}
+.btn {
+    background-color: red;
+    color: black;
+    padding: 0.5em 1em;
+    transition: 0.5s;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px black;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+}

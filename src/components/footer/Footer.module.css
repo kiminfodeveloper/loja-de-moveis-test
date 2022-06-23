@@ -1,0 +1,30 @@
+.footer{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    min-height: 10%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: honeydew
+}
+
+.social_list {
+    text-align: center;
+    display: auto;
+    justify-content: center;
+    list-style-type: none;
+    text-shadow: 1px 1px 4px black;
+}
+
+.social_list li {
+    margin: 0 1em;
+    color: honeydew;
+}
+
+.social_list li:hover {
+    color: rgb(0, 0, 0);
+}
+
+.social_list svg {
+    cursor: pointer;
+}

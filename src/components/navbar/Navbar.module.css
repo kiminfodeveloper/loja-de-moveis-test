@@ -1,0 +1,32 @@
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 0, 0);
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a {
+    color: honeydew;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px black;
+    transition: 0.5s;
+}
+
+.item a:hover {
+    color: rgb(0, 0, 0);
+}
